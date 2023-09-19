@@ -1,0 +1,106 @@
+body {
+    background-color: #333;
+    /* Color de fondo oscuro */
+    font-family: Arial, sans-serif;
+    /* Tipo de letra serio y formal */
+}
+
+.container {
+    background-color: #222;
+    /* Color de fondo del contenedor */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+    /* Sombra elegante */
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    /* Color de texto blanco */
+}
+
+.form-control {
+    background-color: #444;
+    /* Color de fondo del campo de entrada */
+    border: 1px solid #555;
+    /* Borde del campo de entrada */
+    border-radius: 3px;
+    color: #fff;
+    /* Color de texto blanco */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    /* Color de fondo del botón */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    /* Color de fondo del botón al pasar el mouse */
+}
+
+.card {
+    height: 200px;
+    /* Altura constante de las tarjetas */
+}
+
+.card-text {
+    /* Utiliza toda la altura disponible */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* Añade tres puntos suspensivos al final del texto */
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    /* Número de líneas a mostrar antes de truncar */
+    -webkit-box-orient: vertical;
+}
+
+
+/* Bootstrap Colors */
+
+.gray-100 {
+    color: #f8f9fa;
+    /* Color gray-100 */
+}
+
+.gray-200 {
+    color: #e9ecef;
+    /* Color gray-200 */
+}
+
+.gray-300 {
+    color: #dee2e6;
+    /* Color gray-300 */
+}
+
+.gray-400 {
+    color: #ced4da;
+    /* Color gray-400 */
+}
+
+.gray-500 {
+    color: #adb5bd;
+    /* Color gray-500 */
+}
+
+.gray-600 {
+    color: #6c757d;
+    /* Color gray-600 */
+}
+
+.gray-700 {
+    color: #495057;
+    /* Color gray-700 */
+}
+
+.gray-800 {
+    color: #343a40;
+    /* Color gray-800 */
+}
+
+.gray-900 {
+    color: #212529;
+    /* Color gray-900 */
+}

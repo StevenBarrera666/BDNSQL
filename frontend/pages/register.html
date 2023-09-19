@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro de Usuario</title>
+    <!-- Boostrap 5 -->
+    <link href="../style/bootstrap_5.0.3.css" rel="stylesheet">
+    <script defer src="../js/bootstrap_5.0.3.js"></script>
+    <!-- Personalizado -->
+    <script defer src="../js/register.js"></script>
+    <link rel="stylesheet" href="../style/main.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 mb-5">
+                <h2 class="text-center my-5">Registro de Usuario</h2>
+                <form id="registroForm">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="text-white mt-3" for="nombre">Nombres:</label>
+                                <input type="text" class="form-control" id="nombre" name="nombre" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="text-white mt-3" for="apellido">Apellidos:</label>
+                                <input type="text" class="form-control" id="apellido" name="apellido" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="text-white mt-3" for="pais">pais: (opcional)</label>
+                                <input type="text" class="form-control" id="pais" name="pais">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="text-white mt-3" for="email">Correo Electrónico:</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="text-white mt-3" for="password">Contraseña:</label>
+                                <input type="password" class="form-control" id="password" name="password" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="text-white mt-3" for="telefono">Telefono: (opcional)</label>
+                                <input type="text" class="form-control" id="telefono" name="telefono">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="text-white mt-3" for="genero">Genero: (opcional)</label>
+                                <input type="text" class="form-control" id="genero" name="genero">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="text-white mt-3" for="fecha">Fecha nacimiento: (opcional)</label>
+                                <input type="date" class="form-control" id="fecha" name="fecha">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="text-white mt-3" for="documento">N° documento de identidad: (opcional)</label>
+                                <input type="text" class="form-control" id="documento" name="documento">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="text-center mt-5">
+                        <button type="submit" class="btn btn-primary">Registrar</button>
+                    </div>
+                </form>
+                <div class="login-link text-white text-center mt-3">
+                    ¿Ya tienes una cuenta? <a href="./login.html">Iniciar Sesión</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
